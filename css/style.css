@@ -1,0 +1,41 @@
+body{
+   
+    margin: 0;
+    /* margin-top: ; */
+}
+
+#head{
+    /* height: 50vh; */
+    background-image: url(/img/photo-1685990678290-954dc7d5b16c.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#main{
+    height:100%;
+}
+.foot{
+    height: 100vh;
+    background-image: url(/img/photo-1685948595028-3c5023244556.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.big{
+    background-color: green;
+}
+.main-header{
+    text-align: center;
+    color: aquamarine;
+}
+.navigation-bar ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navigation-bar >ul >li{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    list-style-type: none;
+    padding: 10px                                                                                                       ;
+
+}
+
